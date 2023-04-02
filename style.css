@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* <----------Menu--------> */
+
+#menu{
+    background-color: rgb(240, 239, 239);
+    background-size: contain;
+    padding: auto;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.menu-list{
+    position: center;
+}
+
+#menu .menu-list li a{
+    position: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(240, 239, 239);
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+#menu .menu-list li a:hover{
+    background-color: rgb(119, 119, 119);
+    border-bottom: 10px;
+    border-radius: 2px;
+}
+
+.about img{
+    background-size: cover;
+    background-position: center;
+    margin-left: 20px;
+}
+
+.about p{
+    margin-top: 0;
+    margin-left: 50px;
+}
+
+h5{
+    margin: 10px;
+}
+#home .social-media{
+    margin-bottom: 30px;
+}
+
+#home .social-media li:hover{
+    background-color: rgb(206, 169, 255);
+    border-radius: 50%;
+}
+h3{
+    text-decoration: underline;
+    margin: 20px;
+}
+
+.image-edit{
+    font-size: small;
+    text-decoration-line: underline;
+    margin-top: 0;
+    margin-left: 50px;
+    width: 100%;
+}
+.triassic{
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.triassic .content{
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+footer p{
+    text-align: center;
+    letter-spacing: 0.6px;
+    position: center;
+    bottom: 0;
+    left: 0;
+    padding: 15px;
+    border-top: solid 1px lightgray;
+}
+
